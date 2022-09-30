@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>0930</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: 'Urbanist', sans-serif;
+      }
+      .container {
+        height: 60px;
+        background-color: #55d6be;
+      }
+      .wrapper {
+        padding: 10px 20px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+      }
+      .left {
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+      .center {
+        flex: 1;
+        text-align: center;
+      }
+      .right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .language {
+        font-size: 14px;
+        /* margin-left: 20px; */
+      }
+      .logo {
+      }
+
+      .menu-item {
+        margin-left: 25px;
+      }
+
+      .shape {
+        /* display: flex; */
+        position: relative;
+        height: 80vh;
+        /* align-content: center; */
+        justify-content: center;
+      }
+      .square {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 10px;
+        margin: auto;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        background-color: #4682b4;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .circle {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        margin: auto;
+        right: 10px;
+        height: 30px;
+        width: 30px;
+        background-color: #87ceeb;
+        border-radius: 50%;
+      }
+      .mixed {
+        display: flex;
+        top: 0;
+        bottom: 0;
+        /* position: absolute; */
+        gap: 10px;
+        margin: auto;
+        /* justify-items: center; */
+      }
+      .s,
+      .c {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        /* outline: none; */
+        /* justify-items: center; */
+      }
+      .s {
+        color: aliceblue;
+        font-weight: bold;
+        background-color: #4682b4;
+      }
+      .c {
+        background-color: #87ceeb;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="left">
+          <span class="language">EN</span>
+        </div>
+        <div class="center">
+          <h1 class="logo">LOGO</h1>
+        </div>
+        <div class="right">
+          <div class="menu-item"><a href="navbar.html" target="_blank">Register</a></div>
+          <div class="menu-item">Register</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shape">
+      <div class="mixed">
+        <div class="s">1</div>
+        <div class="c">A</div>
+        <div class="c">B</div>
+        <div class="c">C</div>
+        <div class="c">D</div>
+      </div>
+      <div class="mixed">
+        <div class="s">1</div>
+        <div class="c">A</div>
+        <div class="c">B</div>
+        <div class="c">C</div>
+        <div class="c">D</div>
+      </div>
+      <div class="mixed">
+        <div class="s">1</div>
+        <div class="c">A</div>
+        <div class="c">B</div>
+        <div class="c">C</div>
+        <div class="c">D</div>
+      </div>
+      <div class="square"></div>
+      <div class="circle"></div>
+    </div>
+  </body>
+</html>

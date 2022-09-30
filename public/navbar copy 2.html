@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  <title>Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      font-family: 'Urbanist', sans-serif;
+    }
+    .container {
+      
+      /* border: 1px solid #4682b4 ; */
+      background-color:#55d6be ;
+      height: 160px;
+    }
+    .wrapper {
+      /* padding: 10px 20px; */
+      display: flex;
+      /* 平均分配內容元素，左右元素貼齊主軸線最前端與最末端 */
+      justify-content: space-between;
+      /* justify-content: flex-start; */
+      /* 對齊主軸線最終端 */
+      /* justify-content: flex-end; */
+      /* 對齊主軸線中央 */
+      /* justify-content: center; */
+      /* 平均分配寬度和間距 */
+      /* justify-content: space-around; */
+    }
+    .left, .right, .center {
+      /* 欄寬佔比 */
+      /* flex: 1; */
+      
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      background-color:#4682b4 ;
+    }
+
+    .center {
+      /* display: flex;
+      align-items: center;
+      height: 30px;
+      background-color:#4682b4 ; */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      
+      <div class="left">L</div>
+      <div class="center">C</div>
+      <div class="right">R</div>
+      <div class="right">R</div>
+      <!-- <div class="right">R</div> -->
+    </div>
+  </div>
+</body>
+</html>

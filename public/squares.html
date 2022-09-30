@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+    <title>Squares</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: 'Urbanist', sans-serif;
+      }
+      .container {
+        /* display: flex;
+      justify-content:space-between;
+      align-items: center; */
+        /* height: 100vh; */
+      }
+
+      .center {
+        height: 90vh;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+      }
+
+      .square {
+        background-color: #4682b4;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+
+
+      .grid {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        min-height: 70vh;
+        gap: 5px;
+        grid-template-columns: repeat(6, 50px);
+        /* grid-template-rows: minmax(120px,auto) repeat(3, 100px); */
+        grid-template-rows: repeat(5, 50px);
+      }
+
+
+      .grid > button {
+        font-size: 1rem;
+        outline: none;
+        border: 1px solid white;
+        background-color: #55d6be;
+        border-radius: 50%;
+      }
+
+      button.active {
+        background-color: #fc6471;
+      }
+
+      .score{
+        font-size: 26px;
+        margin-top: 30px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .text {
+        color: #fc6471;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    
+
+    <!-- <button class="active">8</button> -->
+    <div class="container">
+
+      <div class="score"><span class="text">110</span>  / 120</div>
+      <div class="grid">
+        <!-- <div class="square"></div> -->
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button class="active">8</button>
+        <button>9</button>
+        <button>10</button>
+        <button>11</button>
+        <button>12</button>
+        <button>13</button>
+        <button>14</button>
+        <button>15</button>
+        <button>16</button>
+        <button class="active">17</button>
+        <button>18</button>
+        <button>19</button>
+        <button>20</button>
+        <button>21</button>
+        <button>22</button>
+        <button>23</button>
+        <button>24</button>
+      </div>
+
+
+      <!-- <div class="center">
+        <div class="square"></div>
+      </div> -->
+    </div>
+  </body>
+</html>
